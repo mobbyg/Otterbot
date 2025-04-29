@@ -1,12 +1,25 @@
-# Otterbot
-The Offical Rumble livestreaming bot of the GREAT Otterman Empire!
-
+# 🦦 Otterbot
+### The Offical Rumble livestreaming bot of the GREAT Otterman Empire!
+  
 ![image](https://github.com/user-attachments/assets/6cc23934-5aec-4552-946a-481d1296359b)
 
 Required:<br>
+
 + pycurl<br>
 + websocket<br>
 + ttkbootstrap<br>
+
+Installation:<br>
+
++ Install required libraries above. 
++ Start with `python3 otterbot_v1_1_3.py`
+
+Upcoming Features:<br>
+
++ Multiple Channel Support
++ Themes
++ Suggest YOUR ideas
+
 
 ## Version History:
 * v1.0.0 (2025-04-28): Initial GUI release with scene configuration, start/stop polling, and real-time log display.
