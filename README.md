@@ -3,8 +3,12 @@ The Offical Rumble livestreaming bot of the GREAT Otterman Empire!
 
 ![image](https://github.com/user-attachments/assets/6cc23934-5aec-4552-946a-481d1296359b)
 
+Required:<br>
++ pycurl<br>
++ websocket<br>
++ ttkbootstrap<br>
 
-Version History:
+## Version History:
 * v1.0.0 (2025-04-28): Initial GUI release with scene configuration, start/stop polling, and real-time log display.
                       Added Clear Log button in the Log tab.
                       Added otter emoji (🦦) to the title bar.
