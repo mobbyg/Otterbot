@@ -20,6 +20,9 @@ Upcoming Features:<br>
 + Themes
 + Suggest YOUR ideas
 
+### Should work on Windows and Mac with Python v3.xx installed. ### 
+
+<hr>
 
 ## Version History:
 * v1.0.0 (2025-04-28): Initial GUI release with scene configuration, start/stop polling, and real-time log display.
