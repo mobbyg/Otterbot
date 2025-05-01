@@ -50,3 +50,26 @@ Upcoming Features:<br>
 * v1.1.3 (2025-04-30): Added support for detecting and handling new rants (monetary tips) during livestreams.
                       Added scene switching for new rants and test mode simulation for rants.
                       Added display of latest rant in the GUI.
+# v1.1.4 (2025-04-29): Replaced scene switching with source visibility toggling for followers, subscribers, gifted subs, and rants.
+                      Updated GUI to configure source names instead of scenes.
+                      Used SetSceneItemEnabled for OBS WebSocket 5.x to toggle sources.
+
+# v1.1.5 (2025-04-29): Fixed missing sceneItemId in SetSceneItemEnabled requests by adding get_scene_item_id helper.
+                      Ensured test mode and polling correctly toggle sources.
+
+# v1.1.6 (2025-04-29): Fixed get_scene_item_id to correctly extract sceneItemId from responseData, resolving test button failure.
+
+# v1.1.7 (2025-04-29): Fixed toggle_source to use sceneItemEnabled instead of enabled in SetSceneItemEnabled requests.
+
+# v1.1.8 (2025-04-29): Improved WebSocket and thread management in test_event and wait_for_test_event to fix test button failure during polling.
+
+# v1.1.9 (2025-04-29): Fixed `watchers_data` typo in simulate_test_event for subscriber events.
+                      Improved toggle_source to use threading.Timer for reliable source disabling.
+                      Added event queuing to prevent overlapping source toggles.
+                      Added WebSocket reconnection logic in poll_rumble_api for robustness.
+                      Ensured subscriber events are processed consistently with polling.
+# v1.2.0 (2025-04-29): Fixed Queue.Empty error in process_event_queue by using queue.Empty.
+                      Simplified event handling by removing event_queue and process_event_queue thread.
+                      Ensured sources are disabled after timer by validating WebSocket connection.
+                      Added WebSocket reconnection logic in toggle_source for robustness.
+                      Improved logging for timer and disable actions.
