@@ -1,0 +1,112 @@
+---------------------------------------------------------------
+Collection of Stream API Endpoints For your Streaming/Dev Needs
+---------------------------------------------------------------
+This List is Made Specifically for the Rumble API!
+
+https://rumble.com
+
+List Updated since 2024/02/21:
+List Compiled by "tinyplayerss"
+
+https://rumble.com/c/tinyplayerss
+https://rumble.com/register/tinyplayerss1
+
+Social Handles:
+Discord > @tinyplayerss
+Guilded > @tinyplayerss
+X > @tinyplayerss
+
+To use These Endpoints for Streamers Get an OBS Plugin Called
+URL/API Source
+
+Plugin: https://obsproject.com/forum/resources/url-api-source-live-data-media-and-ai-on-obs-made-simple.1756/
+
+Install it
+1. Close OBS Studio Completely.
+2. Double Click the Plugin to Install.
+3. Run OBS Studio.
+4. Use a New/Existing Scene.
+5. Right Click in the Sources list.
+6. Find URL Source in the Right Clicked Sources List.
+7. Watch a Tutorial Video that Explains how the Plugin Works.
+https://rumble.com/v3j4mld--live-rumble-api-setup.html
+
+
+---------------------------------------------------------------
+Stream API
+---------------------------------------------------------------
+/type
+/username
+/channel_name
+/since
+/max_num_results
+---------------------------------------------------------------
+Stream API
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Follower Endpoints
+---------------------------------------------------------------
+/followers/num_followers (Totals the Channel Followers)
+/followers/num_followers_total (Totals the User and All Channel Followers, Note: use the User Stream API)
+/followers/latest_followers
+/followers/latest_followers_total
+/followers/latest_followers/username (This Endpoint Gives you the Username of Whom Followed)
+/followers/latest_followers/profile_pic_url (This one is Self-Explanatory, It retrieves the pfp of Follower)
+/followers/recent_followers/0/username (Shows the Recent Follower Username)
+/followers/recent_followers/0/profile_pic_username (This applies as the Same as the Last One)
+/followers/recent_followers/0/followed_on (Shows a Date of User when they Followed)
+---------------------------------------------------------------
+Follower Endpoints
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Subscriber Endpoints
+---------------------------------------------------------------
+/subscribers/num_subscribers (Shows the Total of Subscribers)
+/subscribers/latest_subscriber/username
+/subscribers/latest_subscriber/profile_pic_url
+/subscribers/latest_subscriber/amount_cents
+/subscribers/latest_subscriber/amount_dollars
+/subscribers/latest_subscriber/subscribed_on
+/subscribers/recent_subscribers/0/username
+/subscribers/recent_subscribers/0/profile_pic_url
+/subscribers/recent_subscribers/0/amount_cents
+/subscribers/recent_subscribers/0/amount_dollars
+/subscribers/recent_subscribers/0/subscribed_on
+---------------------------------------------------------------
+Subscriber Endpoints
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Live Stream Endpoints
+---------------------------------------------------------------
+/livestreams/0/id
+/livestreams/0/title
+/livestreams/0/created_on
+/livestreams/0/is_live
+/livestreams/0/visibility
+/livestreams/0/categories/primary/slug
+/livestreams/0/categories/primary/title
+/livestreams/0/categories/seconday
+/livestreams/0/likes
+/livestreams/0/dislikes
+/livestreams/0/watching_now
+/livestreams/0/chat
+/livestreams/0/chat/latest_message
+/livestreams/0/chat/recent_messages
+/livestreams/0/chat/latest_rant
+/livestreams/0/chat/recent_rants
+/livestreams/0/chat/latest_rant
+/livestreams/0/chat/latest_rant/username
+/livestreams/0/chat/latest_rant/text
+/livestreams/0/chat/latest_rant/amount_dollars
+/livestreams/0/chat/latest_message
+/livestreams/0/chat/latest_message/username
+/livestreams/0/chat/latest_message/text
+---------------------------------------------------------------
+Live Stream Endpoints
+---------------------------------------------------------------
