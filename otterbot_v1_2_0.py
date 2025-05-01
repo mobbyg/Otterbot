@@ -68,7 +68,7 @@ logging.basicConfig(
 )
 
 # Rumble API configuration
-API_URL = "https://rumble.com/-livestream-api/get-data?key=rdvjQpZ8aJSmBIybuudQXcn1PZPyzz-LDniDszua9C6MBiXdhJLtzMyoNXrYSR0imb5uOhL4WQfudQiSbWu6tA"
+API_URL = ""
 
 # OBS WebSocket configuration
 OBS_HOST = "localhost"
